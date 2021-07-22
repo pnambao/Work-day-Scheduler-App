@@ -102,8 +102,8 @@ body {
   /* on hover, the icon will slowly get bigger and then smaller when the curser exits*/
   .saveBtn i:hover {
     font-size: 25px;
-    color: teal;
-    transition: all .3s ease-in-out;
+    color: rgb(230, 193, 31);
+    transition: all .1s ease-in-out;
     cursor: pointer;
   }
   
