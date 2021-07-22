@@ -4,8 +4,9 @@ This app lets a user create a schedule that is organized hourly.
 ## Description 
 For this project, a workday scheduler app was made using some starter html code and bootstrap.
 The app has time slots that allows the user to fill in tasks for the day by the hour.
-The user can save their edits, and this is saved into the local storage.
-The app also shows the date and time for the current day. 
+The user should be able to save their edits (this is logged using local storage).
+The app should also show the date and time for the current day.
+At this stage of the development, there are some bugs that need to be fixed before it can function as it should. 
 
 Here is the link to the app: (https://pnambao.github.io/Work-day-Scheduler-App/)
 
