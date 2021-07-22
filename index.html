@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
    
     <!--Web page title-->
@@ -20,9 +23,9 @@
 <body>
     <!--Bootstrap jumbotron layout-->
     <header class="jumbotron bg-primary">
-        <h1 class="font-weight-bold text-white display-3">Work Day Scheduler</h1>
-        <p class="text-white font-weight-bold lead">A simple calendar application for scheduling your work day</p>
-        <p id="currentDay" class="text-white font-weight-bold lead"></p>
+        <h1 class="font-weight-bold text-white display-3 title">Work Day Scheduler</h1>
+        <p class="text-white font-weight-bold lead" id="subTitle">A simple calendar application for scheduling your work day</p>
+        <p id="currentDay" class="text-white font-weight-bold lead title"></p>
     </header>
     <div class="container">
 
@@ -30,7 +33,7 @@
         
         <div id="hour9" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 9:00am
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -44,7 +47,7 @@
 
         <div id="hour10" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 10:00am
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -58,7 +61,7 @@
 
         <div id="hour11" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 11:00am
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -72,7 +75,7 @@
 
         <div id="hour12" class="row time-block past present future">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 12:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -84,9 +87,9 @@
             </button>
         </div>
 
-        <div id="hour13" class="row time-block">
+        <div id="hour13" class="row time-block title">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 1:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -100,7 +103,7 @@
 
         <div id="hour14" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 2:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -114,7 +117,7 @@
 
         <div id="hour15" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 3:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -128,7 +131,7 @@
 
         <div id="hour16" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 4:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->
@@ -142,7 +145,7 @@
 
         <div id="hour17" class="row time-block">
             <!--Single hour slot (taking up 1 section of 12)-->
-            <div class="col-md-1 hour">
+            <div class="col-md-1 hour title2">
                 5:00pm
             </div>
             <!--Empty space for typing in text (taking up 10 sections of 12)-->

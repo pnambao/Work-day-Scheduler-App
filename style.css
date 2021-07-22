@@ -1,10 +1,36 @@
 /*Ensures entire body of html document has the following presets*/
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family:'Shadows Into Light', cursive;;
+    font-size: 20px;
     line-height: 1;
   }
-  
+
+  /* Adding a border around the container div*/
+.container {
+  margin-bottom: 5%;
+  border: rgb(19, 117, 245) solid 5px;
+  border-radius: 15px;
+}
+
+/* styles font of the biggest title on the page "Work day Scheduler"*/
+.title {
+  font-family:'Abril Fatface', cursive;
+}
+
+/* Styles font of the times in the time slots*/
+.title2 {
+  font-family:'Abril Fatface', cursive; 
+  font-size: medium;
+}
+
+/* Adds custom font and background colour to subtitle*/
+#subTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: normal;
+  background-color: #9a06d5;
+}
+
 /* styling for the empty slots where user gets to add their text*/
   textarea{
     background: transparent;
@@ -13,7 +39,7 @@ body {
     color: #000000;
     border-left: 3px solid black;
     border-right: 3px solid rgb(10, 9, 9);
-    padding:5px;
+    padding:10px;
   }
    /* styling for jumbotron layout taken from bootstrap*/
   .jumbotron {
@@ -31,37 +57,40 @@ body {
   
   .time-block{
     text-align: left;
-    border-radius: 20px;
-    color: rebeccapurple;
+    border-radius: 15px;
   }
   
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: .5px solid white;;
+    border-top: 1px solid white;;
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgb(233, 187, 36);
+    color: #330303;
     border-top: 1px dashed #000000;
   }
   
+  /*If the time slot is past current time, it will be shaded grey*/
   .past {
     background-color: #d3d3d3;
     color: white;
   }
   
+  /*If the time slot is the current time, it will be coral/red*/
   .present {
     background-color: #ff6961;
     color: white;
   }
   
+  /* If the time slot is in the futur, it will be green*/
   .future {
     background-color: #77dd77;
     color: white;
   }
   
+  /* The save button is purple, and the icon will be set to white*/
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -70,8 +99,11 @@ body {
     color: white;
   }
   
+  /* on hover, the icon will slowly get bigger and then smaller when the curser exits*/
   .saveBtn i:hover {
-    font-size: 10px;
+    font-size: 25px;
+    color: teal;
     transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   
