@@ -1,8 +1,9 @@
 
 
+ //display current day & time.
 $(document).ready(function () {
-    //display current day & time.
-    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
+   
+    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"))
 
     //Assign saveBtn click listener for user input and time stamp.
     $(".saveBtn").on("click", function () {
@@ -55,4 +56,3 @@ $(document).ready(function () {
     }
     hourTracker();
 })
-

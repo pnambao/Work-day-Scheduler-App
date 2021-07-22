@@ -1,9 +1,11 @@
+/*Ensures entire body of html document has the following presets*/
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    line-height: .5;
+    line-height: 1;
   }
   
+/* styling for the empty slots where user gets to add their text*/
   textarea{
     background: transparent;
     border: none;
@@ -13,7 +15,7 @@ body {
     border-right: 3px solid rgb(10, 9, 9);
     padding:5px;
   }
-  
+   /* styling for jumbotron layout taken from bootstrap*/
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -22,6 +24,7 @@ body {
     border-bottom: 15px solid pink;
   }
   
+  /*makes text wrap within the text-area. Line breaks start a new line*/
   .description{
     white-space: pre-wrap;
   }
@@ -29,6 +32,7 @@ body {
   .time-block{
     text-align: left;
     border-radius: 20px;
+    color: rebeccapurple;
   }
   
   .row {
